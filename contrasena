@@ -1,0 +1,24 @@
+import java.util.Scanner;
+public class club1
+{
+public static void main (String args[])
+{
+int a = 567;
+Scanner u = new Scanner (System.in);
+int i = 0;
+
+for (int i =0;i<3;i++)
+System.out.println("Introduce contraseña");
+i = u.nextInt();
+
+if (i==a)
+{
+System.out.println("La contraseña es correcta");
+
+break;
+}
+else 
+System.out.println("La contraseña es incorrecta");
+}
+}
+}
